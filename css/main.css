@@ -7,13 +7,18 @@ html {
 
 a {
 	color: #713754;
+	font-size: 1.2rem;
 }
 
 a:hover {
-	color:ff3252;
+	color:#ff3252;
+}
+.quotationmarks {
+	color:#ff3252
+	font-size: 1.1rem;
 }
 
-h1, h2{
+h1, h2, h3 {
 	color: #79756f;
 	font-weight: normal;
 	font-size: 2rem;
@@ -25,6 +30,12 @@ h1, h2{
 h2 {
 	font-size: 1.5rem;
 }
+
+
+h3 {
+	font-size: 1.2rem;
+}
+
 
 ol {
 		list-style-type: none;
@@ -50,6 +61,7 @@ p {
 	font-style: normal; /* italic, normal */
 	text-align: left; /* left, center, right, justify*/
 	font-family: arial, sans-serif;
+	font-size: 1.0rem;
 }
 
 b {
@@ -59,8 +71,20 @@ b {
 	color:#79757c;
 }
 
+.celestial {
+	font-style: normal; /* italic, normal */
+	text-align: left; /* left, center, right, justify*/
+	font-family: arial, sans-serif;
+	font-size: 1.1rem;
+}
+
 .quote {
 	font-style: italic; /* italic, normal */
 	text-align: center; /* left, center, right, justify*/
 	font-family: arial, sans-serif;
 	font-size: 1.5rem;
+}
+
+ul {
+		list-style-type: circle;
+}
