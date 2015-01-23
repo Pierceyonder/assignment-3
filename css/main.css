@@ -20,9 +20,33 @@ h1, h2{
 	line-height: 1.5;
 
 	font-family: 'Bevan', cursive;
+
+}
+h2 {
+	font-size: 1.5rem;
 }
 
 ol {
 		list-style-type: none;
 
+}
+
+blockquote {
+	font-style: italic; /* italic, normal */
+	text-align: center; /* left, center, right, justify*/
+	font-family: arial, sans-serif;
+}
+
+footer {
+	font-style: italic; /* italic, normal */
+	text-align: right; /* left, center, right, justify*/
+	font-size: 0.8rem;
+	font-family: arial, sans-serif;
+	color: #79757c;
+}
+
+p {
+	font-style: normal; /* italic, normal */
+	text-align: left; /* left, center, right, justify*/
+	font-family: arial, sans-serif;
 }
