@@ -3,3 +3,26 @@ html {
 	background-color: #dbd6cf;
 
 }
+
+
+a {
+	color: #713754;
+}
+
+a:hover {
+	color:ff3252;
+}
+
+h1, h2{
+	color: #79756f;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 1.5;
+
+	font-family: 'Bevan', cursive;
+}
+
+ol {
+		list-style-type: none;
+
+}
